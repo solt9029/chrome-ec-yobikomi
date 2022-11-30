@@ -1,0 +1,36 @@
+{
+  "name": "chrome-extension-typescript-starter",
+  "version": "1.0.0",
+  "description": "chrome-extension-typescript-starter",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "moment": "~2.24.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.91",
+    "@types/jest": "^24.0.23",
+    "@types/jquery": "^3.3.31",
+    "copy-webpack-plugin": "^5.0.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "~3.7.3",
+    "webpack": "~4.41.2",
+    "webpack-cli": "~3.3.10",
+    "webpack-merge": "~4.2.2"
+  }
+}
