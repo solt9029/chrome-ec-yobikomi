@@ -29,5 +29,9 @@
   "permissions": [
     "storage",
     "<all_urls>"
+  ],
+
+  "web_accessible_resources": [
+    "music.mp3"
   ]
 }
