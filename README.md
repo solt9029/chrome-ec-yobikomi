@@ -3,7 +3,7 @@
 https://twitter.com/solt9029/status/1605199422274801671
 
 ## About
-- play music on specific websites
+- chrome extension to play the music on specific websites
 - intended to play 呼び込み君 music on E-commerce webpages to simulate supermarkets
 
 ## Setup
@@ -11,4 +11,3 @@ https://twitter.com/solt9029/status/1605199422274801671
 - customize targetUrls on src/background.ts
 - yarn run build
 - load this extension on your chrome
-
